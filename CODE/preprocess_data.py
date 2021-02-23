@@ -18,3 +18,5 @@ def remove_outliers(data, m):
     s = d/mdev if mdev else 0.
     
     return np.where(s < m)
+print("This will run.")  # This won't run
+
